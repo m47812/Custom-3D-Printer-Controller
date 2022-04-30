@@ -25,8 +25,8 @@ The Project contains 3 Folders with KiCad design files.
 - 24V Power Supply
 - USB-B Micro
 - Micro SD-Card Slot
-- Z Stepepr Drivers Allow for simple paralell and serial motor connection
-- 3 Endstops
+- Z Stepper Drivers Allow for simple parallel and serial motor connection
+- 3 End stops
 - 4 Fan Ports
   - 1 Individually PWM controllable
   - 2 PWM Controllable together
@@ -39,9 +39,9 @@ The Project contains 3 Folders with KiCad design files.
 - WLAN Module
 
 ## Background
-I designed this 3D printer controller as a hobby project, for my own 3D printer. The Original plan was to build a custom hardware and custom firmware. Throughout 
+I designed this 3D printer controller as a hobby project, for my own 3D printer. The original plan was to build a custom hardware and custom firmware. Throughout 
 the project my colleague and I have moved to a different printer design which resulted in the stop of the firmware project. The PCB was produced at JLCPCB and I did
-some tests with it.
+some tests with it. I've decided to make the project open source for anyone who would like to build their own 3D printer electronics. The project may serve as a starting point or something to enhance, modify and customize.
 
 ## State of the project
 ![Real Board](/Images/Mainboard_Real.jpg)
@@ -59,7 +59,7 @@ the motor drivers together with the STM32. I haven't found any problems so far w
 - Temperature control of Bed and Extruders
 - SD Card Slot
 - WLAN Module
-- Buffer Batterie
+- Buffer Battery
 
 ## Firmware
 I would recommend using the board with [Marlin firmware](https://github.com/MarlinFirmware/Marlin). It will require some manual adaptations to be able to use Marlin.
