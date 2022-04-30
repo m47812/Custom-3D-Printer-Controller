@@ -1,0 +1,1043 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EC40F60
+P 6300 6950
+AR Path="/5EE0155A/5EC40F60" Ref="Q?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F60" Ref="Q?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F60" Ref="Q304"  Part="1" 
+F 0 "Q304" H 6504 6996 50  0000 L CNN
+F 1 "AO3400A" H 6504 6905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 7050 50  0001 C CNN
+F 3 "~" H 6300 6950 50  0001 C CNN
+	1    6300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC40F66
+P 5800 6950
+AR Path="/5EE0155A/5EC40F66" Ref="R?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F66" Ref="R?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F66" Ref="R304"  Part="1" 
+F 0 "R304" V 5593 6950 50  0000 C CNN
+F 1 "1k" V 5684 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5730 6950 50  0001 C CNN
+F 3 "~" H 5800 6950 50  0001 C CNN
+	1    5800 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 6950 6100 6950
+$Comp
+L power:+24V #PWR?
+U 1 1 5EC40F77
+P 6400 5800
+AR Path="/5EE0155A/5EC40F77" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F77" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F77" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 6400 5650 50  0001 C CNN
+F 1 "+24V" H 6415 5973 50  0000 C CNN
+F 2 "" H 6400 5800 50  0001 C CNN
+F 3 "" H 6400 5800 50  0001 C CNN
+	1    6400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC40F7D
+P 6400 7250
+AR Path="/5EE0155A/5EC40F7D" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F7D" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F7D" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 6400 7000 50  0001 C CNN
+F 1 "GND" H 6405 7077 50  0000 C CNN
+F 2 "" H 6400 7250 50  0001 C CNN
+F 3 "" H 6400 7250 50  0001 C CNN
+	1    6400 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 7250 6400 7150
+$Comp
+L Device:Polyfuse F?
+U 1 1 5EC40F84
+P 6400 6050
+AR Path="/5EE0155A/5EC40F84" Ref="F?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F84" Ref="F?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F84" Ref="F305"  Part="1" 
+F 0 "F305" H 6050 6100 50  0000 L CNN
+F 1 "2920L260/24DR" H 5700 6000 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 6450 5850 50  0001 L CNN
+F 3 "~" H 6400 6050 50  0001 C CNN
+	1    6400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5800 6400 5900
+Wire Wire Line
+	5250 6950 5650 6950
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EC42D91
+P 4600 6900
+AR Path="/5EE0155A/5EC42D91" Ref="Q?"  Part="1" 
+AR Path="/5EC39CD6/5EC42D91" Ref="Q?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42D91" Ref="Q303"  Part="1" 
+F 0 "Q303" H 4804 6946 50  0000 L CNN
+F 1 "AO3400A" H 4804 6855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 7000 50  0001 C CNN
+F 3 "~" H 4600 6900 50  0001 C CNN
+	1    4600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC42D97
+P 4100 6900
+AR Path="/5EE0155A/5EC42D97" Ref="R?"  Part="1" 
+AR Path="/5EC39CD6/5EC42D97" Ref="R?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42D97" Ref="R303"  Part="1" 
+F 0 "R303" V 3893 6900 50  0000 C CNN
+F 1 "1k" V 3984 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4030 6900 50  0001 C CNN
+F 3 "~" H 4100 6900 50  0001 C CNN
+	1    4100 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 6900 4400 6900
+Wire Wire Line
+	4700 6250 4700 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5EC42DAE
+P 4700 7200
+AR Path="/5EE0155A/5EC42DAE" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC42DAE" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42DAE" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 4700 6950 50  0001 C CNN
+F 1 "GND" H 4705 7027 50  0000 C CNN
+F 2 "" H 4700 7200 50  0001 C CNN
+F 3 "" H 4700 7200 50  0001 C CNN
+	1    4700 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 7200 4700 7100
+$Comp
+L Device:Polyfuse F?
+U 1 1 5EC42DB5
+P 4700 6000
+AR Path="/5EE0155A/5EC42DB5" Ref="F?"  Part="1" 
+AR Path="/5EC39CD6/5EC42DB5" Ref="F?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42DB5" Ref="F304"  Part="1" 
+F 0 "F304" H 4788 6046 50  0000 L CNN
+F 1 "2920L260/24DR" H 4788 5955 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 4750 5800 50  0001 L CNN
+F 3 "~" H 4700 6000 50  0001 C CNN
+	1    4700 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6900 3950 6900
+Text Label 5250 6950 0    50   ~ 0
+Teilfans
+Text Label 3550 6900 0    50   ~ 0
+Teilfans
+Text HLabel 3550 6900 0    50   Input ~ 0
+Teilfans
+Text Notes 5100 7700 0    118  ~ 0
+Teilfans
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5EC53296
+P 2250 5000
+AR Path="/5EE0155A/5EC53296" Ref="Q?"  Part="1" 
+AR Path="/5EC39CD6/5EC53296" Ref="Q?"  Part="1" 
+AR Path="/5EC4F5FC/5EC53296" Ref="Q301"  Part="1" 
+F 0 "Q301" H 2454 5046 50  0000 L CNN
+F 1 "AO3400A" H 2454 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2450 5100 50  0001 C CNN
+F 3 "~" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EC5329C
+P 1750 5000
+AR Path="/5EE0155A/5EC5329C" Ref="R?"  Part="1" 
+AR Path="/5EC39CD6/5EC5329C" Ref="R?"  Part="1" 
+AR Path="/5EC4F5FC/5EC5329C" Ref="R301"  Part="1" 
+F 0 "R301" V 1543 5000 50  0000 C CNN
+F 1 "1k" V 1634 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1680 5000 50  0001 C CNN
+F 3 "~" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 5000 2050 5000
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EC532A3
+P 2950 4500
+AR Path="/5EE0155A/5EC532A3" Ref="J?"  Part="1" 
+AR Path="/5EC39CD6/5EC532A3" Ref="J?"  Part="1" 
+AR Path="/5EC4F5FC/5EC532A3" Ref="J301"  Part="1" 
+F 0 "J301" H 3030 4492 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3030 4401 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 2950 4500 50  0001 C CNN
+F 3 "~" H 2950 4500 50  0001 C CNN
+	1    2950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5EC532AD
+P 2350 3800
+AR Path="/5EE0155A/5EC532AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC532AD" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC532AD" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 2350 3650 50  0001 C CNN
+F 1 "+24V" H 2365 3973 50  0000 C CNN
+F 2 "" H 2350 3800 50  0001 C CNN
+F 3 "" H 2350 3800 50  0001 C CNN
+	1    2350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC532B3
+P 2350 5300
+AR Path="/5EE0155A/5EC532B3" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC532B3" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC532B3" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 2350 5050 50  0001 C CNN
+F 1 "GND" H 2355 5127 50  0000 C CNN
+F 2 "" H 2350 5300 50  0001 C CNN
+F 3 "" H 2350 5300 50  0001 C CNN
+	1    2350 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5300 2350 5200
+$Comp
+L Device:Polyfuse F?
+U 1 1 5EC532BA
+P 2350 4100
+AR Path="/5EE0155A/5EC532BA" Ref="F?"  Part="1" 
+AR Path="/5EC39CD6/5EC532BA" Ref="F?"  Part="1" 
+AR Path="/5EC4F5FC/5EC532BA" Ref="F301"  Part="1" 
+F 0 "F301" H 2438 4146 50  0000 L CNN
+F 1 "2920L260/24DR" H 2438 4055 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 2400 3900 50  0001 L CNN
+F 3 "~" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3800 2350 3950
+Wire Wire Line
+	1300 5000 1600 5000
+Text HLabel 1300 5000 0    50   Input ~ 0
+Extruderfan
+Text Notes 1450 7700 0    118  ~ 0
+Extruderfan
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EC5C6B7
+P 5150 4650
+AR Path="/5EE0155A/5EC5C6B7" Ref="J?"  Part="1" 
+AR Path="/5EC39CD6/5EC5C6B7" Ref="J?"  Part="1" 
+AR Path="/5EC4F5FC/5EC5C6B7" Ref="J303"  Part="1" 
+F 0 "J303" H 5230 4642 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5230 4551 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 5150 4650 50  0001 C CNN
+F 3 "~" H 5150 4650 50  0001 C CNN
+	1    5150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4550 4600 4500
+$Comp
+L power:+24V #PWR?
+U 1 1 5EC5C6C1
+P 4600 4000
+AR Path="/5EE0155A/5EC5C6C1" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC5C6C1" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC5C6C1" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 4600 3850 50  0001 C CNN
+F 1 "+24V" H 4615 4173 50  0000 C CNN
+F 2 "" H 4600 4000 50  0001 C CNN
+F 3 "" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 5EC5C6C7
+P 4600 4300
+AR Path="/5EE0155A/5EC5C6C7" Ref="F?"  Part="1" 
+AR Path="/5EC39CD6/5EC5C6C7" Ref="F?"  Part="1" 
+AR Path="/5EC4F5FC/5EC5C6C7" Ref="F303"  Part="1" 
+F 0 "F303" H 4688 4346 50  0000 L CNN
+F 1 "2920L260/24DR" H 4688 4255 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 4650 4100 50  0001 L CNN
+F 3 "~" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4000 4600 4150
+$Comp
+L power:GND #PWR0306
+U 1 1 5EC5CBFF
+P 4600 5000
+F 0 "#PWR0306" H 4600 4750 50  0001 C CNN
+F 1 "GND" H 4605 4827 50  0000 C CNN
+F 2 "" H 4600 5000 50  0001 C CNN
+F 3 "" H 4600 5000 50  0001 C CNN
+	1    4600 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 4050 5400 0    118  ~ 0
+Elektronikfan
+$Comp
+L Device:Q_NMOS_GSD Q305
+U 1 1 5EE08F84
+P 7450 2400
+F 0 "Q305" H 7654 2446 50  0000 L CNN
+F 1 "AO3400A" H 7654 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 2500 50  0001 C CNN
+F 3 "~" H 7450 2400 50  0001 C CNN
+	1    7450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R305
+U 1 1 5EE09B6F
+P 6950 2400
+F 0 "R305" V 6743 2400 50  0000 C CNN
+F 1 "1k" V 6834 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6880 2400 50  0001 C CNN
+F 3 "~" H 6950 2400 50  0001 C CNN
+	1    6950 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2400 7250 2400
+$Comp
+L Connector:Screw_Terminal_01x02 J307
+U 1 1 5EE0C211
+P 7800 1750
+F 0 "J307" H 7880 1742 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7600 1500 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7800 1750 50  0001 C CNN
+F 3 "~" H 7800 1750 50  0001 C CNN
+	1    7800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1850 7550 1850
+Wire Wire Line
+	7550 1850 7550 2200
+Wire Wire Line
+	7600 1750 7550 1750
+Wire Wire Line
+	7550 1750 7550 1650
+$Comp
+L power:+24V #PWR0313
+U 1 1 5EE0C21B
+P 7550 1200
+F 0 "#PWR0313" H 7550 1050 50  0001 C CNN
+F 1 "+24V" H 7565 1373 50  0000 C CNN
+F 2 "" H 7550 1200 50  0001 C CNN
+F 3 "" H 7550 1200 50  0001 C CNN
+	1    7550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q306
+U 1 1 5EE10DF0
+P 9750 2500
+F 0 "Q306" H 9954 2546 50  0000 L CNN
+F 1 "AO3400A" H 9954 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9950 2600 50  0001 C CNN
+F 3 "~" H 9750 2500 50  0001 C CNN
+	1    9750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R307
+U 1 1 5EE10DF6
+P 9250 2500
+F 0 "R307" V 9043 2500 50  0000 C CNN
+F 1 "1k" V 9134 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9180 2500 50  0001 C CNN
+F 3 "~" H 9250 2500 50  0001 C CNN
+	1    9250 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 2500 9550 2500
+$Comp
+L Connector:Screw_Terminal_01x02 J310
+U 1 1 5EE10DFD
+P 10100 1850
+F 0 "J310" H 10180 1842 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10180 1751 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 10100 1850 50  0001 C CNN
+F 3 "~" H 10100 1850 50  0001 C CNN
+	1    10100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1950 9850 1950
+Wire Wire Line
+	9850 1950 9850 2300
+Wire Wire Line
+	9900 1850 9850 1850
+Wire Wire Line
+	9850 1850 9850 1750
+$Comp
+L power:+24V #PWR0320
+U 1 1 5EE10E07
+P 9850 1300
+F 0 "#PWR0320" H 9850 1150 50  0001 C CNN
+F 1 "+24V" H 9865 1473 50  0000 C CNN
+F 2 "" H 9850 1300 50  0001 C CNN
+F 3 "" H 9850 1300 50  0001 C CNN
+	1    9850 1300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8600 3150 8600 500 
+Wire Notes Line
+	550  3150 11250 3150
+$Comp
+L power:GND #PWR0321
+U 1 1 5EE13F5A
+P 9850 2800
+F 0 "#PWR0321" H 9850 2550 50  0001 C CNN
+F 1 "GND" H 9855 2627 50  0000 C CNN
+F 2 "" H 9850 2800 50  0001 C CNN
+F 3 "" H 9850 2800 50  0001 C CNN
+	1    9850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0314
+U 1 1 5EE14279
+P 7550 2700
+F 0 "#PWR0314" H 7550 2450 50  0001 C CNN
+F 1 "GND" H 7555 2527 50  0000 C CNN
+F 2 "" H 7550 2700 50  0001 C CNN
+F 3 "" H 7550 2700 50  0001 C CNN
+	1    7550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2700 7550 2600
+Wire Wire Line
+	9850 2800 9850 2700
+Text Notes 6600 3050 0    118  ~ 0
+Extruder Heater A
+Text Notes 8850 3150 0    118  ~ 0
+Extruder Heater B
+$Comp
+L Device:Polyfuse F306
+U 1 1 5EE1B759
+P 7550 1500
+F 0 "F306" H 7638 1546 50  0000 L CNN
+F 1 "2920L260/24DR" H 7638 1455 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 7600 1300 50  0001 L CNN
+F 3 "~" H 7550 1500 50  0001 C CNN
+	1    7550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1200 7550 1350
+$Comp
+L Device:Polyfuse F307
+U 1 1 5EE1D158
+P 9850 1600
+F 0 "F307" H 9938 1646 50  0000 L CNN
+F 1 "2920L260/24DR" H 9938 1555 50  0000 L CNN
+F 2 "Fuse:Fuse_2920_7451Metric" H 9900 1400 50  0001 L CNN
+F 3 "~" H 9850 1600 50  0001 C CNN
+	1    9850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1300 9850 1450
+Wire Notes Line
+	6950 5500 6950 6500
+Text Notes 7500 6500 0    118  ~ 0
+Temperaturmessung
+Text Notes 4600 3350 2    118  ~ 0
+Fans
+Wire Wire Line
+	10200 4700 10200 4650
+$Comp
+L power:GND #PWR0322
+U 1 1 5EA7E53F
+P 10200 4700
+F 0 "#PWR0322" H 10200 4450 50  0001 C CNN
+F 1 "GND" H 10205 4527 50  0000 C CNN
+F 2 "" H 10200 4700 50  0001 C CNN
+F 3 "" H 10200 4700 50  0001 C CNN
+	1    10200 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4550 9450 4550
+Wire Wire Line
+	9550 4650 9550 4550
+$Comp
+L power:GND #PWR0317
+U 1 1 5EA7E537
+P 9550 4650
+F 0 "#PWR0317" H 9550 4400 50  0001 C CNN
+F 1 "GND" H 9555 4477 50  0000 C CNN
+F 2 "" H 9550 4650 50  0001 C CNN
+F 3 "" H 9550 4650 50  0001 C CNN
+	1    9550 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 4300
+Wire Wire Line
+	9550 4450 9550 4300
+Wire Wire Line
+	9450 4450 9550 4450
+$Comp
+L Connector:Screw_Terminal_01x02 J308
+U 1 1 5EA7E52E
+P 9250 4450
+F 0 "J308" H 9800 4450 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 9850 4350 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 9250 4450 50  0001 C CNN
+F 3 "~" H 9250 4450 50  0001 C CNN
+	1    9250 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4300 10200 4350
+Wire Wire Line
+	9550 4300 10200 4300
+Wire Wire Line
+	9550 4250 9550 4300
+Wire Wire Line
+	9550 3800 9550 3950
+$Comp
+L Device:C C302
+U 1 1 5EA7E51E
+P 10200 4500
+F 0 "C302" H 10315 4546 50  0000 L CNN
+F 1 "100n" H 10315 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10238 4350 50  0001 C CNN
+F 3 "~" H 10200 4500 50  0001 C CNN
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R308
+U 1 1 5EA7E518
+P 9550 4100
+F 0 "R308" H 9620 4146 50  0000 L CNN
+F 1 "1k" H 9620 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 4100 50  0001 C CNN
+F 3 "~" H 9550 4100 50  0001 C CNN
+	1    9550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4750 7800 4700
+$Comp
+L power:GND #PWR0315
+U 1 1 5EA5DDC3
+P 7800 4750
+F 0 "#PWR0315" H 7800 4500 50  0001 C CNN
+F 1 "GND" H 7805 4577 50  0000 C CNN
+F 2 "" H 7800 4750 50  0001 C CNN
+F 3 "" H 7800 4750 50  0001 C CNN
+	1    7800 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4600 7050 4600
+Wire Wire Line
+	7150 4700 7150 4600
+$Comp
+L power:GND #PWR0312
+U 1 1 5EA5CFEA
+P 7150 4700
+F 0 "#PWR0312" H 7150 4450 50  0001 C CNN
+F 1 "GND" H 7155 4527 50  0000 C CNN
+F 2 "" H 7150 4700 50  0001 C CNN
+F 3 "" H 7150 4700 50  0001 C CNN
+	1    7150 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 4350
+Wire Wire Line
+	7150 4500 7150 4350
+Wire Wire Line
+	7050 4500 7150 4500
+$Comp
+L Connector:Screw_Terminal_01x02 J305
+U 1 1 5EA5AB84
+P 6850 4500
+F 0 "J305" H 6850 4650 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7050 4250 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 6850 4500 50  0001 C CNN
+F 3 "~" H 6850 4500 50  0001 C CNN
+	1    6850 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4350 7800 4400
+Wire Wire Line
+	7150 4350 7800 4350
+Wire Wire Line
+	7150 4300 7150 4350
+Wire Wire Line
+	7150 3850 7150 4000
+$Comp
+L Device:C C301
+U 1 1 5EE18E03
+P 7800 4550
+F 0 "C301" H 7915 4596 50  0000 L CNN
+F 1 "100n" H 7915 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7838 4400 50  0001 C CNN
+F 3 "~" H 7800 4550 50  0001 C CNN
+	1    7800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 6150 10200 6100
+$Comp
+L power:GND #PWR0323
+U 1 1 5EAE4EDA
+P 10200 6150
+F 0 "#PWR0323" H 10200 5900 50  0001 C CNN
+F 1 "GND" H 10205 5977 50  0000 C CNN
+F 2 "" H 10200 6150 50  0001 C CNN
+F 3 "" H 10200 6150 50  0001 C CNN
+	1    10200 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 6000 9450 6000
+Wire Wire Line
+	9550 6100 9550 6000
+$Comp
+L power:GND #PWR0319
+U 1 1 5EAE4ED2
+P 9550 6100
+F 0 "#PWR0319" H 9550 5850 50  0001 C CNN
+F 1 "GND" H 9555 5927 50  0000 C CNN
+F 2 "" H 9550 6100 50  0001 C CNN
+F 3 "" H 9550 6100 50  0001 C CNN
+	1    9550 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 5750
+Wire Wire Line
+	9550 5900 9550 5750
+Wire Wire Line
+	9450 5900 9550 5900
+$Comp
+L Connector:Screw_Terminal_01x02 J309
+U 1 1 5EAE4EC9
+P 9250 5900
+F 0 "J309" H 9800 5900 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 9850 5800 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 9250 5900 50  0001 C CNN
+F 3 "~" H 9250 5900 50  0001 C CNN
+	1    9250 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5750 10200 5800
+Wire Wire Line
+	9550 5750 10200 5750
+Wire Wire Line
+	9550 5700 9550 5750
+Wire Wire Line
+	9550 5250 9550 5400
+$Comp
+L Device:C C303
+U 1 1 5EAE4EB9
+P 10200 5950
+F 0 "C303" H 10315 5996 50  0000 L CNN
+F 1 "100n" H 10315 5905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10238 5800 50  0001 C CNN
+F 3 "~" H 10200 5950 50  0001 C CNN
+	1    10200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R309
+U 1 1 5EAE4EB3
+P 9550 5550
+F 0 "R309" H 9620 5596 50  0000 L CNN
+F 1 "100k" H 9620 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 5550 50  0001 C CNN
+F 3 "~" H 9550 5550 50  0001 C CNN
+	1    9550 5550
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2250 0    50   ~ 0
+Heatbed_EN
+Wire Wire Line
+	2100 2250 2550 2250
+Text Notes 2700 3050 0    118  ~ 0
+Heatbed 
+$Comp
+L power:+24V #PWR0303
+U 1 1 5EE05508
+P 3200 850
+F 0 "#PWR0303" H 3200 700 50  0001 C CNN
+F 1 "+24V" H 3215 1023 50  0000 C CNN
+F 2 "" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0001 C CNN
+	1    3200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1600 3200 1600
+Wire Wire Line
+	3200 1700 3200 2050
+Wire Wire Line
+	3300 1700 3200 1700
+$Comp
+L Connector:Screw_Terminal_01x02 J302
+U 1 1 5EE03D95
+P 3500 1600
+F 0 "J302" H 3580 1592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3580 1501 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 3500 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2550 3200 2450
+$Comp
+L power:GND #PWR0304
+U 1 1 5EE02D3D
+P 3200 2550
+F 0 "#PWR0304" H 3200 2300 50  0001 C CNN
+F 1 "GND" H 3205 2377 50  0000 C CNN
+F 2 "" H 3200 2550 50  0001 C CNN
+F 3 "" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2250 2900 2250
+$Comp
+L Device:Q_NMOS_GDS Q302
+U 1 1 5EE02172
+P 3100 2250
+F 0 "Q302" H 3305 2296 50  0000 L CNN
+F 1 "HUF76639S3ST" H 3305 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 3300 2350 50  0001 C CNN
+F 3 "~" H 3100 2250 50  0001 C CNN
+	1    3100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R302
+U 1 1 5EE01658
+P 2700 2250
+F 0 "R302" V 2493 2250 50  0000 C CNN
+F 1 "330" V 2584 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 2250 50  0001 C CNN
+F 3 "~" H 2700 2250 50  0001 C CNN
+	1    2700 2250
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3600 5500 6950 5500
+Wire Wire Line
+	4700 5750 4700 5850
+$Comp
+L power:+24V #PWR?
+U 1 1 5EC42DA8
+P 4700 5750
+AR Path="/5EE0155A/5EC42DA8" Ref="#PWR?"  Part="1" 
+AR Path="/5EC39CD6/5EC42DA8" Ref="#PWR?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42DA8" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 4700 5600 50  0001 C CNN
+F 1 "+24V" H 4715 5923 50  0000 C CNN
+F 2 "" H 4700 5750 50  0001 C CNN
+F 3 "" H 4700 5750 50  0001 C CNN
+	1    4700 5750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6200 500  6200 5500
+Text HLabel 2100 2250 0    50   Input ~ 0
+Heatbed_EN
+Text HLabel 6700 2400 0    50   Input ~ 0
+EXT_A_EN
+Wire Wire Line
+	6700 2400 6800 2400
+Text HLabel 9050 2500 0    50   Input ~ 0
+EXT_B_EN
+Wire Wire Line
+	9100 2500 9050 2500
+Text HLabel 10400 4300 2    50   Output ~ 0
+EXT_B_TEMP
+Wire Wire Line
+	10400 4300 10200 4300
+Connection ~ 10200 4300
+Text HLabel 10350 5750 2    50   Output ~ 0
+HEATBED_TEMP
+Wire Wire Line
+	10350 5750 10200 5750
+Connection ~ 10200 5750
+Text HLabel 7950 4350 2    50   Output ~ 0
+EXT_A_TEMP
+Wire Wire Line
+	7950 4350 7800 4350
+Connection ~ 7800 4350
+Wire Notes Line
+	3600 3150 3600 6500
+Wire Notes Line
+	3000 6500 3600 6500
+Wire Notes Line
+	3000 7750 3000 6500
+$Comp
+L Device:R R306
+U 1 1 5EE182E1
+P 7150 4150
+F 0 "R306" H 7220 4196 50  0000 L CNN
+F 1 "1k" H 7220 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 4150 50  0001 C CNN
+F 3 "~" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F302
+U 1 1 5ED84FEC
+P 3200 1250
+F 0 "F302" H 3260 1296 50  0000 L CNN
+F 1 "12D2200E" H 3260 1205 50  0000 L CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 3130 1250 50  0001 C CNN
+F 3 "~" H 3200 1250 50  0001 C CNN
+	1    3200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1400 3200 1600
+Wire Wire Line
+	3200 1100 3200 850 
+$Comp
+L power:+3.3VA #PWR0316
+U 1 1 5EDA562E
+P 9550 3800
+F 0 "#PWR0316" H 9550 3650 50  0001 C CNN
+F 1 "+3.3VA" H 9565 3973 50  0000 C CNN
+F 2 "" H 9550 3800 50  0001 C CNN
+F 3 "" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0311
+U 1 1 5EDA632F
+P 7150 3850
+F 0 "#PWR0311" H 7150 3700 50  0001 C CNN
+F 1 "+3.3VA" H 7165 4023 50  0000 C CNN
+F 2 "" H 7150 3850 50  0001 C CNN
+F 3 "" H 7150 3850 50  0001 C CNN
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0318
+U 1 1 5EDA6D37
+P 9550 5250
+F 0 "#PWR0318" H 9550 5100 50  0001 C CNN
+F 1 "+3.3VA" H 9565 5423 50  0000 C CNN
+F 2 "" H 9550 5250 50  0001 C CNN
+F 3 "" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D301
+U 1 1 5EDAC4F7
+P 2350 4550
+F 0 "D301" V 2304 4629 50  0000 L CNN
+F 1 "SMAZ27-13-F" V 2350 3900 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 2350 4550 50  0001 C CNN
+F 3 "~" H 2350 4550 50  0001 C CNN
+	1    2350 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4250 2350 4350
+Wire Wire Line
+	2750 4500 2700 4500
+Wire Wire Line
+	2700 4500 2700 4350
+Wire Wire Line
+	2700 4350 2350 4350
+Connection ~ 2350 4350
+Wire Wire Line
+	2350 4350 2350 4400
+Wire Wire Line
+	2350 4700 2350 4750
+Wire Wire Line
+	2350 4750 2700 4750
+Wire Wire Line
+	2700 4750 2700 4600
+Wire Wire Line
+	2700 4600 2750 4600
+Connection ~ 2350 4750
+Wire Wire Line
+	2350 4750 2350 4800
+$Comp
+L Device:D_Zener D303
+U 1 1 5EDDA327
+P 4700 6450
+F 0 "D303" V 4654 6529 50  0000 L CNN
+F 1 "SMAZ27-13-F" V 4700 5800 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4700 6450 50  0001 C CNN
+F 3 "~" H 4700 6450 50  0001 C CNN
+	1    4700 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 6250 4700 6300
+Connection ~ 4700 6250
+Wire Wire Line
+	4950 6450 4900 6450
+Wire Wire Line
+	4900 6450 4900 6250
+Wire Wire Line
+	4700 6250 4900 6250
+Wire Wire Line
+	4700 6700 4700 6650
+Wire Wire Line
+	4700 6650 4900 6650
+Wire Wire Line
+	4900 6650 4900 6550
+Wire Wire Line
+	4900 6550 4950 6550
+Connection ~ 4700 6650
+Wire Wire Line
+	4700 6650 4700 6600
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EC42D9E
+P 5150 6450
+AR Path="/5EE0155A/5EC42D9E" Ref="J?"  Part="1" 
+AR Path="/5EC39CD6/5EC42D9E" Ref="J?"  Part="1" 
+AR Path="/5EC4F5FC/5EC42D9E" Ref="J304"  Part="1" 
+F 0 "J304" H 5230 6442 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4250 5200 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 5150 6450 50  0001 C CNN
+F 3 "~" H 5150 6450 50  0001 C CNN
+	1    5150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5EC40F6D
+P 6850 6350
+AR Path="/5EE0155A/5EC40F6D" Ref="J?"  Part="1" 
+AR Path="/5EC39CD6/5EC40F6D" Ref="J?"  Part="1" 
+AR Path="/5EC4F5FC/5EC40F6D" Ref="J306"  Part="1" 
+F 0 "J306" H 6750 6100 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6050 5100 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 6850 6350 50  0001 C CNN
+F 3 "~" H 6850 6350 50  0001 C CNN
+	1    6850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D304
+U 1 1 5EDFB2D1
+P 6400 6450
+F 0 "D304" V 6354 6529 50  0000 L CNN
+F 1 "SMAZ27-13-F" V 6400 5650 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 6400 6450 50  0001 C CNN
+F 3 "~" H 6400 6450 50  0001 C CNN
+	1    6400 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 6300 6400 6250
+Wire Wire Line
+	6400 6250 6600 6250
+Wire Wire Line
+	6600 6250 6600 6350
+Wire Wire Line
+	6600 6350 6650 6350
+Connection ~ 6400 6250
+Wire Wire Line
+	6400 6250 6400 6200
+Wire Wire Line
+	6650 6450 6600 6450
+Wire Wire Line
+	6600 6450 6600 6650
+Wire Wire Line
+	6600 6650 6400 6650
+Wire Wire Line
+	6400 6650 6400 6750
+Wire Wire Line
+	6400 6650 6400 6600
+Connection ~ 6400 6650
+$Comp
+L Device:D_Zener D302
+U 1 1 5EE1314F
+P 4600 4700
+F 0 "D302" V 4554 4779 50  0000 L CNN
+F 1 "SMAZ27-13-F" V 4600 4050 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4600 4700 50  0001 C CNN
+F 3 "~" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 5000 4600 4900
+Wire Wire Line
+	4950 4650 4900 4650
+Wire Wire Line
+	4900 4650 4900 4500
+Wire Wire Line
+	4900 4500 4600 4500
+Connection ~ 4600 4500
+Wire Wire Line
+	4600 4500 4600 4450
+Wire Wire Line
+	4950 4750 4900 4750
+Wire Wire Line
+	4900 4750 4900 4900
+Wire Wire Line
+	4900 4900 4600 4900
+Connection ~ 4600 4900
+Wire Wire Line
+	4600 4900 4600 4850
+$EndSCHEMATC
